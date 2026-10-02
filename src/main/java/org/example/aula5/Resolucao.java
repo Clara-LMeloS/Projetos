@@ -1,5 +1,7 @@
 package org.example.aula5;
 
+import java.util.Scanner;
+
 public class Resolucao {
     public static void main(String[] args) {
 

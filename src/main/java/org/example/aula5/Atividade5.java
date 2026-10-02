@@ -6,18 +6,15 @@ public class Atividade5 {
     public class Atividade5_Aula5 {
         public static void main(String[] args) {
 
-
             Scanner sc = new Scanner(System.in);
-
 
             for (int i = 1; i <= 3; i++) {
                 Produto novoProduto = new Produto();
 
-
                 System.out.println("Digite o nome do produto: ");
                 novoProduto.nome = sc.nextLine();
                 System.out.println("Digite o valor do produto: ");
-                novoProduto.preco = sc.nextDouble();
+                novoProduto.preco = sc.nextInt();
                 // temos que colocar o sc.nextline pra nao bugar e pular linha
                 sc.nextLine();
 
@@ -34,4 +31,3 @@ public class Atividade5 {
         }
     }
 }
-
